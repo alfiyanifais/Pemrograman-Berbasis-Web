@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <title>Tracking Pengiriman</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="nav">
+        <a href="dashboard.html">Dashboard</a
+        ><a href="stok.html">Informasi Bahan Ajar</a
+        ><a href="index.html">Logout</a>
+      </div>
+      <h2>Tracking Pengiriman</h2>
+      <div style="margin: 10px 0">
+        <input
+          id="noDO"
+          placeholder="Masukkan Nomor Delivery Order"
+          style="width: 60%; padding: 8px"
+        /><button class="btn" onclick="cariDO()">Cari</button>
+      </div>
+      <div id="hasilTracking" style="margin-top: 12px"></div>
+    </div>
+    <script src="js/data.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
